@@ -12,3 +12,7 @@ function deleteTodo(index) {
   todos.splice(index, 1);
   renderTodos();
 }
+function clearTodos() {
+  todos.length = 0;
+  renderTodos();
+}
